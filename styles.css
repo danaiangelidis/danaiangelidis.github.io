@@ -1,32 +1,39 @@
 body{
-    background:#A4B6FC;
+    background: #F2DFCE;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .assignment {
-    display:flex;
-    padding:10px;
-    margin:10px;
-    background:#B9D4FA;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    background: #A66571;
+    border-radius: 7px;
+    box-shadow: 7px 8px #730217;
 }
 
 .assignment img {
-    width:200px;
-    padding:2px;
+    width: 200px;
+    padding: 2px;
     margin-right: 10px;
-    border: 2px solid #A4B6FC;
+    border: 2px solid #F2DFCE;
+    border-radius: 7px;
 }
 
 h1{
-    color:#F0CD7D;
-    text-align:center;
+    color: #D93B3B;
+    text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: #FFD4EA;
+    color: black;
 }
 
 p {
     color: #fff;
+}
+
+.assignment a:hover {
+    color:#F2DFCE;
 }
