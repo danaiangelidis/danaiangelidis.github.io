@@ -1,5 +1,5 @@
 body{
-    background: #F2DFCE;
+    background: #7F476E;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,34 +13,40 @@ body{
     padding: 10px;
     margin: 10px;
     margin-bottom: 20px;
-    background: #A66571;
+    background: #CC607F;
     border-radius: 7px;
-    box-shadow: 7px 8px #730217;
+    box-shadow: 7px 8px #9B4667;
 }
 
 .assignment img {
     width: 200px;
     padding: 2px;
     margin-right: 10px;
-    border: 2px solid #F2DFCE;
+    border: 2px solid #CC607F;
     border-radius: 7px;
     display: block;
     margin: auto;
 }
 
-h1{
-    color: #D93B3B;
+h1 {
+    color: #FEB950;
+    text-align: center;
+}
+
+h2 {
+    color: #FEB950;
     text-align: center;
 }
 
 a {
-    color: black;
+    color: #FEB950;
 }
 
 p {
-    color: #fff;
+    color: white;
+    text-align: center;
 }
 
 .assignment a:hover {
-    color:#F2DFCE;
+    color: white;
 }
