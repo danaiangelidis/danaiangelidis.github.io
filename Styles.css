@@ -1,6 +1,7 @@
 /* Structure */
 body {
     background-color: rgb(26, 25, 36);
+    padding-left: 1%;
 }
 
 p {
@@ -20,4 +21,8 @@ p {
 a {
     text-decoration: wavy;
     color: white;
+}
+
+a:hover {
+    color:rgb(255, 243, 151);
 }

@@ -1,0 +1,29 @@
+/* Structure */
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+img {
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    padding-right:30%;
+}
+
+/*Typography*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
