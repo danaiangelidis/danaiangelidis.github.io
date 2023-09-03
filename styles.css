@@ -2,28 +2,56 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
-}
-
-.banner {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
-img {
-    width: 20%;
+    background-color: #171B1E;
 }
 
 h1 {
     text-align: center;
 }
 
-li {
-    padding-right:30%;
+p {
+    text-align: center;
+}
+
+#title {
+    background-color: #192127;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    box-shadow: #171B1E 5px 0px 5px 0px;
+    border-radius: 20px;
+}
+
+#body {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 30%;
+    background-color: #252d33;
 }
 
 /*Typography*/
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.assignments {
+    color: rgb(246, 217, 122);
+    text-decoration: none;
+}
+
+.assignments:hover {
+    color: white;
+}
+
+#desc {
+    font-style: italic;
+}
+
+#name {
+    color: rgb(237, 204, 97);
+}
+
+#class {
+    font-size: 40px;
 }
