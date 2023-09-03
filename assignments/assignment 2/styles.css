@@ -1,0 +1,116 @@
+/* Structure */
+
+body {
+    background-color: #fdfaf1;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+#main-nav {
+    background-image: url("nav.jpg");
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 50px;
+}
+
+#landing-page {
+    float: right;
+}
+
+.links {
+    padding-right: 2%;
+}
+
+#body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 50% 0%;
+    grid-gap: 6%;
+}
+
+h2 {
+    padding-top: 2%;
+}
+
+#loteria {
+    padding: 1%;
+    height: 400px;
+    border: 7px solid #d45114;
+}
+
+#placard {
+    height: 400px;
+    padding: 20px;
+}
+
+.cards {
+    height: 350px;
+    padding: 20px;
+}
+
+/* Typography */
+
+p, h2 {
+    color: #383838;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: #d45114;
+}
+
+#landing-page {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.links:hover {
+    color: #dfa083;
+}
+
+#landing-page:hover {
+    color: #dfa083;
+}
+
+/* Table */
+
+#game {
+    border: 2px dashed #dfdbd1;
+    border-collapse: collapse;
+    padding: 2%;
+    text-align: center;
+    width: 100%
+}
+
+td {
+    border: 2px dashed #dfdbd1;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.headings {
+    border: 2px solid #d45114;
+    background-image: url("headings.jpg");
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
