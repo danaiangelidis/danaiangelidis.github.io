@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header id="main-header">
+            <h1 id="main-title">Practicing Flexbox Assignment</h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#">Nav Item 1</a></li>
+                    <li><a href="#">Nav Item 2</a></li>
+                    <li><a href="#">Nav Item 3</a></li>
+                    <li><a href="#">Nav Item 4</a></li>
+                    <li><a href="#">Nav Item 5</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="flex-container">
+                <section id="main-content" class="content">
+                    <h2>Main Content</h2>
+                    <article>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, praesentium! Provident non cupiditate a architecto dolores sunt, deserunt, maxime sit illum ab dolorum cum, fugiat earum veritatis? Corrupti, labore obcaecati.</p>
+                    </article>
+                </section>
+                <section id="main-sidebar" class="content">
+                    <aside>
+                        <h2>Sidebar</h2>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </aside>
+                </section>
+            </div>
+            <div class="flex-container">
+                <section class="columns">
+                    <header>
+                        <h2>Column 1 of 2</h2>
+                    </header>
+                    <div class="flex-container">
+                        <section class="nested-columns">
+                           <p>Nested Column 1</p>
+                        </section>
+                        <section class="nested-columns">
+                            <p>Nested Column 2</p>
+                         </section>
+                         <section class="nested-columns">
+                            <p>Nested Column 3</p>
+                         </section>
+                    </div>
+                </section>
+                <section class="columns">
+                    <header>
+                        <h2>Column 2 of 2</h2>
+                    </header>
+                    <div class="flex-container">
+                        <section class="nested-columns">
+                           <p>Nested Column 1</p>
+                        </section>
+                        <section class="nested-columns">
+                            <p>Nested Column 2</p>
+                         </section>
+                         <section class="nested-columns">
+                            <p>Nested Column 3</p>
+                         </section>
+                    </div>
+                </section>
+            </div>
+            <div class="flex-container">
+                <img class="image" src="https://place-hold.it/320x100/abc">
+                <img class="image" src="https://place-hold.it/320x100/abc">
+                <img class="image" src="https://place-hold.it/320x100/abc">
+            </div>
+        </main>
+        <footer id="main-footer">
+            <h2>Footer</h2>
+            <p>123 Anywhere St. Columbia, SC</p>
+            <p>Copywrite</p>
+        </footer>
+    </body>
+</html>

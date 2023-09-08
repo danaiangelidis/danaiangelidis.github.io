@@ -1,0 +1,74 @@
+/* Structure */
+body {
+    background-color: rgb(255, 195, 195);
+}
+
+#main-header {
+    background-color: rgb(255, 233, 206);
+}
+
+#main-content {
+    background-color: rgb(236, 215, 255);
+}
+
+#main-footer {
+    background-color: rgb(189, 189, 255);
+}
+
+.padded-area {
+    padding: 50px;
+    margin: auto;
+}
+
+.info {
+    border: 2px solid rgb(226, 255, 226);
+    background-color: rgb(255, 247, 223);
+}
+
+.info header{
+    background-color: rgb(219, 253, 255);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Main Navigation */
+#main-nav li {
+    list-style-type: none;
+    padding: 30px;
+}
+
+#main-nav ul {
+    padding: 10px 30px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: rgb(121, 183, 124);
+}
+
+#main-nav a:hover {
+    border-bottom: 3px solid rgb(255, 186, 235);
+    color: rgb(255, 186, 235);
+}
+
+/* Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Larger Resolutions */
+
+/* When the screen is bigger than 600 pixels, the formatting will change! Called MEDIA QUERY*/
+@media only screen and (min-width:600px) {
+    #main-nav li {
+        display: inline-block;
+    }
+
+    .columns {
+        display: flex;
+    }
+}
