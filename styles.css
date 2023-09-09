@@ -15,19 +15,14 @@ body {
     color: #f0e9d8;
 }
 
-#main-header h1 {
+#main-header h1,
+#main-content h2 {
     text-align: center;
-    font-size: 27px;
     margin: 0px;
 }
 
 #main-header p {
     margin-left: 15%;
-}
-
-#main-content h2 {
-    text-align: center;
-    margin: 0px;
 }
 
 #main-content p {
@@ -71,10 +66,6 @@ body {
     .flex-container {
         display: flex;
         justify-content: space-evenly;
-    }
-
-    #main-header h1 {
-        font-size: 34px;
     }
     
     #main-header p {
