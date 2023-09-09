@@ -5,19 +5,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="body">
-        <div id="title">
-            <h1 id="class">CSCE 242 - Web Applications</h1>
-            <h1 id="name">Danai Angelidis</h1>
-            <p id="desc">Web technologies to support client-server computing. Implementation of client-server applications.</p>
-        </div>
+    <header id="main-header">
+        <h1>CSCE 242: Web Applications</h1>
+        <p>Danai Angelidis</h1>
+    </header>
 
-        <h2 id="assignments">Assignments:</h2>
-        <ul>
-            <li><a class="assignment" href="assignments/assignment 1/index.html">Assignment 1</a></li>
-            <li><a class="assignment" href="assignments/assignment 2/index.html">Assignment 2</a></li>
-            <li><a class="assignment" href="assignments/assignment 3/index.html">Assignment 3</a></li>
-        </ul>
-    </div>
+    <main id="main-content">
+        <h2>Assignments</h2>
+        <div class="flex-container">
+            <section class="assignment">
+                <a href="assignments/assignment 1/index.html">
+                    <h3>Assignment 1 - Basic HTML</h3>
+                    <img src="assignment1.png">
+                    <p>In this assignment, we were tasked to create a website about any topic, to get comfortable with basic HTML functions. I chose one of my favorite recipes as the topic.</p>
+                </a>
+            </section>
+            <section class="assignment">
+                <a href="assignments/assignment 2/index.html">
+                    <h3>Assignment 2 - Basic CSS</h3>
+                    <img src="assignment2.png">
+                    <p>In this assignment, we were tasked to create a website about any topic and style it with  basic CSS elements. I chose loteria as the topic and included an example game.</p>
+                </a>
+            </section>
+            <section class="assignment">
+                <a href="assignments/assignment 3/index.html">
+                    <h3>Assignment 3 - Page Layout
+                    </h3>
+                    <img src="assignment3.png">
+                    <p>In this assingment, we were tasked to follow a given layout to get comfortable with using flexbox.</p>
+                </a>
+            </section>
+        </div>
+    </main>
+    <footer id="main-footer">
+        <p>Contact me: danaia@email.sc.edu</p>
+    </footer>
 </body>
 </html>
