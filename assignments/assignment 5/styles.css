@@ -1,0 +1,316 @@
+/* Structure */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+#main-header {
+    background-color: black;
+}
+
+#logo {
+    width: 25%;
+}
+
+#main-underheader {
+    padding: 0px 30px 20px 30px;
+}
+
+/* Little Navigation */
+
+#little-nav {
+    color: white;
+    margin-left: 50%;
+    font-size: 9px;
+    padding: 0px 30px;
+}
+
+#little-nav ul {
+    padding-left: 0px;
+}
+
+#little-nav li {
+    list-style-type: none;
+    margin: 0px 2px;
+}
+
+#little-nav a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 2px;
+}
+
+#little-nav a:hover {
+    background-color: rgb(115, 0, 10);
+}
+
+/* Main Navigation */
+
+#main-nav {
+    background-color: rgb(115, 0, 10);
+    color: white;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+#main-nav ul {
+    padding-left: 0px;
+}
+
+#main-nav li {
+    list-style-type: none;
+    margin: 0px 35px;
+    font-weight: bolder;
+}
+
+#main-nav a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 2px;
+}
+
+#main-nav a:hover {
+    background-color: brown;
+}
+
+/* Main Content */
+
+#headline-image {
+    width: 100%;
+}
+
+#headline {
+    width: 65%;
+    margin-left: 3%;
+}
+
+#headline h1 {
+    color: rgb(115, 0, 10);
+    background-color: transparent;
+    font-size: 34px;
+}
+
+#headline-content {
+    margin: auto;
+    width: 70%;
+    padding-bottom: 30px;
+}
+
+#remarkable {
+    background-color: rgb(115, 0, 10);
+    color: white;
+    padding: 20px;
+}
+
+#remarkable img {
+    width: 100%;
+}
+
+#remarkable-content {
+    font-size: 20px;
+}
+
+#barriers {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#barriers img {
+    width: 100%;
+}
+
+#barriers-content {
+    font-size: 20px;
+}
+
+.button {
+    background-color: rgb(115, 0, 10);
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    border: 3px solid rgb(115, 0, 10);
+    color: rgb(115, 0, 10);
+}
+
+#understanding {
+    padding: 37px;
+    background-color: rgb(236, 236, 236);
+}
+
+#understanding-content {
+    padding: 50px;
+}
+
+#understanding img {
+    width: 100%;
+}
+
+#understanding-content h1,
+#spotlight h1 {
+    color: rgb(115, 0, 10);
+}
+
+#spotlight {
+    padding: 30px;
+}
+
+.article {
+    padding: 15px;
+}
+
+.article img {
+    width: 97%;
+}
+
+.article h3 {
+    color: rgb(115, 0, 10);
+    font-weight: bolder;
+    padding: 15px;
+}
+
+.article h3,
+.article p {
+    width: 90%;
+    margin: auto;
+}
+
+.article:hover {
+    background-color: rgb(236, 236, 236);
+    box-shadow: rgb(163, 162, 162) 5px 0px 25px;
+}
+
+#link {
+    text-align: right;
+    font-weight: bolder;
+    color: rgb(115, 0, 10);
+}
+
+/* Footer */
+
+#main-footer {
+    background-color: rgb(115, 0, 10);
+    padding: 30px;
+    color: white;
+}
+
+#main-footer img {
+    width: 90%;
+    display: block;
+}
+
+.menu {
+    color: white;
+}
+
+.menu ul {
+    padding-left: 0px;
+}
+
+.menu li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    padding: 2px;
+}
+
+.menu a:hover {
+    background-color: brown;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 768px) {
+    #little-nav ul,
+    #main-nav ul {
+        display: flex;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #main-nav {
+        padding: 0px;
+    }
+
+    #headline h1 {
+        font-size: 50px;
+        background-color: rgb(115, 0, 10);
+        color: white;
+        text-align: center;
+    }
+
+    #remarkable {
+        padding: 0px;
+    }
+
+    #remarkable img {
+        width: 60%;
+    }
+
+    #remarkable-content {
+        padding: 190px 50px 30px 50px;
+    }
+
+    #barriers {
+        padding: 0px;
+    }
+
+    #barriers img {
+        width: 55%;
+    }
+
+    #barriers-content {
+        padding: 40px;
+    }
+
+    #understanding img {
+        width: 28%;
+    }
+
+    #understanding-button {
+        width: 50%;
+    }
+
+    .article {
+        width: 25%;
+    }
+
+    #main-footer img {
+        width: 25%;
+    }
+
+    #main-footer li {
+        font-size: 15px;
+    }
+
+    #schools {
+        width: 50%;
+        padding: 5px;
+    }
+
+    #offices {
+        width: 35%;
+        padding: 5px;
+    }
+
+    #tools {
+        width: 15%;
+        padding: 5px;
+    }
+}
