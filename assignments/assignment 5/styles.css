@@ -100,6 +100,21 @@ body {
     padding-bottom: 30px;
 }
 
+.button {
+    background-color: rgb(115, 0, 10);
+    border: 3px solid white;
+    text-align: center;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    border: 3px solid rgb(115, 0, 10);
+    color: rgb(115, 0, 10);
+}
+
+/* Remarkable Research at USC */
+
 #remarkable {
     background-color: rgb(115, 0, 10);
     color: white;
@@ -114,6 +129,7 @@ body {
     font-size: 20px;
 }
 
+/* Built for overcoming barriers */
 #barriers {
     background-color: black;
     color: white;
@@ -128,19 +144,7 @@ body {
     font-size: 20px;
 }
 
-.button {
-    background-color: rgb(115, 0, 10);
-    border: 3px solid white;
-    text-align: center;
-    color: white;
-}
-
-.button:hover {
-    background-color: white;
-    border: 3px solid rgb(115, 0, 10);
-    color: rgb(115, 0, 10);
-}
-
+/* Achieving New Understanding */
 #understanding {
     padding: 37px;
     background-color: rgb(236, 236, 236);
@@ -153,6 +157,8 @@ body {
 #understanding img {
     width: 100%;
 }
+
+/* Research Spotlights */
 
 #understanding-content h1,
 #spotlight h1 {
@@ -191,8 +197,147 @@ body {
 #link {
     text-align: right;
     font-weight: bolder;
+    color: rgb(126, 0, 10);
+    background-color: transparent;
+    margin:auto;
+}
+
+#link:hover {
+    color: white;
+    background-color: brown;
+}
+
+/* Breakthrough Faculty */
+
+#faculty {
+    padding: 20px;
+    background-color: rgb(87, 0, 8);
+}
+
+#faculty-content {
+    padding: 40px;
+    color: white;
+    font-size: larger;
+}
+
+#faculty img {
+    width: 100%;
+}
+
+#faculty-button {
+    background-color: black;
+    font-size: smaller;
+    width: 50%;
+}
+
+/* Investing */
+
+#investing img {
+    width: 100%;
+}
+
+#investing {
+    background-color: rgb(236, 236, 236);
+    padding: 40px;
+}
+
+#investing-content {
+    font-size: larger;
+}
+
+#investing-content h1 {
     color: rgb(115, 0, 10);
 }
+
+#investing-button {
+    width: 60%;
+    font-size: smaller;
+}
+
+/* Leading the Edge of Health Sciences */
+
+#edge {
+    background-color: rgb(31,65,77);
+    padding: 40px;
+}
+
+#edge img {
+    width: 100%;
+}
+
+#edge-content {
+    color: white;
+    font-size: larger;
+}
+
+#edge-button {
+    font-size: smaller;
+    width: 50%;
+}
+
+/* Let's build a better world */
+
+#build img {
+    width: 100%;
+}
+
+#build {
+    padding-bottom: 220px;
+}
+
+#build-content {
+    background-color: rgb(115, 0, 10);
+    width: 85%;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 9040px;
+    left: 1%;
+}
+
+#build-button {
+    background-color: black;
+    width: 70%;
+}
+
+/* Office of Vice President for Research */
+#vp img {
+    width: 100%;
+}
+
+#vp {
+    padding: 20px;
+}
+
+#vp-content {
+    padding: 0px 20px;
+}
+
+#vp-content h1 {
+    color: rgb(115, 0, 10);
+}
+
+#vp-content ul {
+    padding-left: 0px;
+}
+
+#vp-content li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+#vp-content a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(87, 0, 8);
+    font-weight: bold;
+}
+
+#vp-content a:hover {
+    color: white;
+    background-color: brown;
+}
+
 
 /* Footer */
 
@@ -255,6 +400,16 @@ body {
         text-align: center;
     }
 
+    #headline {
+        position: absolute;
+        top: 440px;
+    }
+
+    #headline-content {
+        margin-top: 60px;
+    }
+
+    /* Remarkable Research at USC */
     #remarkable {
         padding: 0px;
     }
@@ -267,6 +422,7 @@ body {
         padding: 190px 50px 30px 50px;
     }
 
+    /* Built for overcoming barriers */
     #barriers {
         padding: 0px;
     }
@@ -279,6 +435,7 @@ body {
         padding: 40px;
     }
 
+    /* Achieving New Understanding */
     #understanding img {
         width: 28%;
     }
@@ -287,10 +444,82 @@ body {
         width: 50%;
     }
 
+    /* Research Spotlights */
     .article {
         width: 25%;
     }
 
+    /* Breakthrough Faculty */
+    #faculty {
+        padding: 0px;
+    }
+
+    #faculty img {
+        width: 55%;
+    }
+
+    /* Investing in Research */
+    #investing img {
+        width: 27%;
+    }
+
+    #investing-content {
+        width: 60%;
+    }
+
+    #investing-button {
+        width: 40%;
+    }
+
+    /* The Leading Edge of Health Sciences */
+    #edge {
+        padding: 0px;
+    }
+
+    #edge img {
+        width: 50%;
+    }
+    
+    #edge-content {
+        padding: 50px;
+    }
+    
+    #edge-button {
+        width: 40%;
+    }
+
+    /* Let's build a better world */
+    #build-content {
+        top: 4700px;
+        left: 4%;
+        width: 55%;
+    }
+
+    #build-button {
+        width: 50%;
+    }
+
+    #build {
+        padding-bottom: 0px;
+    }
+
+    /* Office of Vice President for Research */
+    #vp {
+        padding: 0;
+    }
+
+    #vp img {
+        width: 50%;
+    }
+
+    #vp-content {
+        padding: 30px;
+    }
+    
+    #vp-button {
+        width: 70%;
+    }
+    /* Footer */
     #main-footer img {
         width: 25%;
     }
