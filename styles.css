@@ -4,6 +4,8 @@ body {
     margin: auto;
     width: 85%;
     background-image: url("background.jpg");
+    background-repeat: unset;
+    background-size: cover;
 }
 
 #main-header,
