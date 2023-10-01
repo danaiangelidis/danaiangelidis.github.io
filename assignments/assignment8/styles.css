@@ -1,0 +1,83 @@
+:root {
+    --num: 0%;
+}
+
+/* Structure */
+
+body {
+    background-color: #17161e;
+    color: white;
+}
+
+#main-header {
+    background-color: #1f1e2b;
+    padding: 5px;
+    text-align: center;
+}
+
+.underline {
+    border-bottom: solid 5px #7bb4b3;
+}
+
+/* Typography */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Exercise 1 */
+
+.exercises {
+    padding: 15px;
+    background-color: #3b3856;
+    margin: 10px;
+}
+
+#man {
+    width: 30px;
+    line-height: 100px;
+    position: relative;
+}
+
+.move {
+    animation-name: running-man;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes running-man {
+    0% {
+       left: 0px;
+    }
+    100% {
+       left: 300px;
+    }
+}
+
+/* Exercise 2 */
+
+#thermometer {
+    width: 100px;
+    height: 300px;
+    background: #fff;
+    margin: auto;
+}
+
+#thermometer.gradient {
+    background: rgb(109, 81, 105);
+    background: linear-gradient(0deg, rgb(109, 81, 105) 0% var(--num), rgb(194, 204, 255) var(--num) 100%);
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 800px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercises {
+        width: 50%;
+    }
+}
