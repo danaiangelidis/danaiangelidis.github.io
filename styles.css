@@ -3,17 +3,16 @@
 body {
     margin: auto;
     width: 85%;
-    background-image: url("background.jpg");
-    background-repeat: unset;
-    background-size: cover;
+    background-image: url("images/background.jpg");
 }
 
 #main-header,
-#main-content,
+#assignments,
+#project,
 #main-footer {
     background-color: #a5aea1;
     padding: 20px;
-    margin: auto;
+    margin: 10px auto;
     color: #f0e9d8;
 }
 
