@@ -1,0 +1,41 @@
+/* Structure */
+
+body {
+    background-color: #CA5310;
+    color: #691E06;
+}
+
+.exercises,
+#main-header,
+#main-footer {
+    background-color: #FBBA72;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.exercises {
+    height: 200px;
+}
+
+h1,
+#main-footer p {
+    text-align: center;
+    color: #8F250C;
+}
+
+/* Typography */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width: 600px) {
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .exercises {
+        width: 48%;
+    }
+}
