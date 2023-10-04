@@ -3,6 +3,7 @@
 <head>
     <title>Danai Angelidis 242</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header id="main-header">
@@ -11,8 +12,13 @@
     </header>
 
     <main id="main-content">
+        <nav id="main-nav">
+            <ul>
+                <li id="assign-tab" class="underline">Assignments</li>
+                <li id="proj-tab">Project</li>
+            </ul>
+        </nav>
         <section id="assignments">
-            <h2>Assignments</h2>
             <div class="flex-container">
                 <section class="assignment">
                     <a href="assignments/assignment1/index.html">
@@ -56,7 +62,7 @@
                         <p>In this assingment, we were tasked to create a page that contained a comparison of ages and a thermometer to measure a fundraiser goal in order to practice our JavaScript skills further.</p>
                     </a>
                 </section>
-                <section class="assignment">
+                <section class="assignment" class="hide">
                     <a href="assignments/assignment8/index.html">
                         <h3>Assignment 8 - Loops</h3>
                         <img src="images/assignment8.PNG">
@@ -65,8 +71,7 @@
                 </section>
             </div>
         </section>
-        <section id="project">
-            <h2>Semester Project</h2>
+        <section id="project" class="hide">
             <div class="flex-container">
                 <section class="assignment">
                     <a href="project/wireframes/index.html">

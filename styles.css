@@ -3,17 +3,26 @@
 body {
     margin: auto;
     width: 85%;
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.png");
+    /* Snippet starts here */
+    /* Source: https://css-tricks.com/perfect-full-page-background-image/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Snippet ends here */
+}
+
+.hide {
+    display: none;
 }
 
 #main-header,
-#assignments,
-#project,
+#main-content,
 #main-footer {
-    background-color: #a5aea1;
     padding: 20px;
-    margin: 10px auto;
-    color: #f0e9d8;
+    margin: auto;
+    color: #ffffff;
 }
 
 #main-header h1,
@@ -36,11 +45,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #ddcea8;
+    background-color: rgba(120, 25, 66, 0.429);
+    border-radius: 10px;
+}
+
+.assignment:hover {
+    background-color: rgba(171, 52, 84, 0.779);
 }
 
 .assignment img {
-    border: 3px solid #f0e9d8;
+    border: 3px solid #ffffff;
     width: 90%;
 }
 
@@ -53,21 +67,56 @@ body {
 /*Typography*/
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .assignment a {
-    color: #585c3d;
+    color: #ffffff;
     text-decoration: none;
+}
+
+/* Navigation */
+
+.underline {
+    border-bottom: solid 5px #63394f;
+}
+
+#main-nav {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+#main-nav ul {
+    padding-left: 0px;
+    display: flex;
+}
+
+#main-nav li {
+    list-style-type: none;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgba(120, 25, 66, 0.429);
+    width: 100%;
+    font-size: 120%;
+}
+
+#main-nav li:hover {
+    border-bottom: solid 5px #63394f79;
 }
 
 /* Media Query */
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
 
     .flex-container {
         display: flex;
         flex-wrap: wrap;
+    }
+
+    #main-header h1 {
+        margin-top: 10px;
+        margin-bottom: -20px;
     }
     
     #main-header p {
