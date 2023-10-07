@@ -14,13 +14,68 @@ body {
 }
 
 .exercises {
-    height: 200px;
+    height: 250px;
 }
 
 h1,
 #main-footer p {
     text-align: center;
     color: #8F250C;
+}
+
+#rainbow-button {
+    border: 2px solid #8F250C;
+    background-color: #CA5310;
+    color: #FBBA72;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+#rainbow {
+    margin-top: 10px;
+}
+
+#rainbow p {
+    padding: 10px;
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+#pot {
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    width: 100px;
+}
+
+/* Rainbow */
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
 }
 
 /* Typography */
@@ -37,5 +92,10 @@ body {
 
     .exercises {
         width: 48%;
+    }
+
+    #pot {
+        top: 290px;
+        left: 1130px;
     }
 }

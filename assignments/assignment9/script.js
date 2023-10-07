@@ -7,17 +7,48 @@ const quoteLoop = () => {
 
     const slideQuotes = document.getElementById("slidequotes");
 
-        count = 1;
-        setInterval(() => {
-            if (count > 4) {
-                count = 0;
-            }
-            const currentQuote = quotes[count];
-            slideQuotes.innerHTML = `${currentQuote} <br><br>`;
-            count++;
-        }, 2000);
-    }
+    count = 1;
+    setInterval(() => {
+        if (count > 4) {
+            count = 0;
+        }
+        const currentQuote = quotes[count];
+        slideQuotes.innerHTML = `${currentQuote} <br><br>`;
+        count++;
+    }, 2000);
+}
+
+const drawRainbow = () => {
+    document.getElementById("red").classList.add("hidden");
+    document.getElementById("orange").classList.add("hidden");
+    document.getElementById("yellow").classList.add("hidden");
+    document.getElementById("green").classList.add("hidden");
+    document.getElementById("blue").classList.add("hidden");
+    document.getElementById("purple").classList.add("hidden");
+    document.getElementById("pot").classList.add("hidden");
+
+    document.getElementById("red").classList.remove("hidden");
+    setTimeout(() => {
+        document.getElementById("orange").classList.remove("hidden");
+    }, 1000);
+    setTimeout(() => {
+        document.getElementById("yellow").classList.remove("hidden");
+    }, 2000);
+    setTimeout(() => {
+        document.getElementById("green").classList.remove("hidden");
+    }, 3000);
+    setTimeout(() => {
+        document.getElementById("blue").classList.remove("hidden");
+    }, 4000);
+    setTimeout(() => {
+        document.getElementById("purple").classList.remove("hidden");
+    }, 5000);
+    setTimeout(() => {
+        document.getElementById("pot").classList.remove("hidden");
+    }, 6000);
+};
 
 window.onload = () => {
     quoteLoop();
+    document.getElementById("rainbow-button").onclick = drawRainbow;
 };
