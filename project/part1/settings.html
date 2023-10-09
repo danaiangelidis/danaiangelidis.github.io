@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <title>Settings</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="tab.png">
+    <link rel="stylesheet" href="styles-settings.css">
     <script src="script.js"></script>
 </head>
 <body>
-    <header>
+    <header id="main-header">
         <div id="topnav">
             <section id="search">
-                <img src="icons/search.png" id="search-icon" class="icons">
-                <input type="text" placeholder="Search">
+                <a href="search.html">
+                    <img src="icons/search.png" id="search-icon" class="icons">
+                    <input type="text" placeholder="Search">
+                </a>
             </section>
             <img src="logo.png" id="logo">
             <img src="icons/menu-burger.png" id="burger">
@@ -22,11 +25,30 @@
             </section>
         </div>
     </header>
-    <main>
+    <main id="main-content">
+        <h1>Edit Profile</h1>
+        <h3>Change Username</h3>
+        <p>
+            <label for="txt-new-username">Username</label>
+            <input type="text" id="txt-new-username" placeholder="user1">
+        </p>
 
+        <h3>Change Password</h3>
+        <p>
+            <label for="txt-current-pass">Old Password</label>
+            <input type="password" id="txt-current-pass" placeholder="Current password">
+            <br><br>
+            <label for="txt-new-pass">New Password</label>
+            <input type="password" id="txt-new-pass" placeholder="New password">
+        </p>
+
+        <section id="buttons" class="flex-container">
+            <button id="log-out-button">Log Out</button>
+            <button id="deac-acc-button">Deactivate Account</button>
+        </section>
     </main>
-    <footer>
-
+    <footer id="main-footer">
+        <a href="../wireframes/index.html"><p>To Wireframes</p></a>
     </footer>
 </body>
 </html>

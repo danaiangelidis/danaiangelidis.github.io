@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Create Post</title>
+    <title>Moda</title>
     <link rel="icon" href="tab.png">
-    <link rel="stylesheet" href="styles-post.css">
+    <link rel="stylesheet" href="styles-view-post.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -25,18 +25,22 @@
             </section>
         </div>
     </header>
-    <main id="main-content">
-        <h1>Create a Post</h1>
-        <section id="photo">
-            <h1>Photo</h1>
-            <input type="file" id="file-input">
-            <img src="https://place-hold.it/250x350/">
+    <main id="main-content" class="flex-container">
+        <img src="https://place-hold.it/350x490" class="content">
+        <section class="content">
+            <h1>user3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam corrupti reprehenderit quod dolorem tempore, possimus saepe aliquid, exercitationem, commodi iure quibusdam esse quisquam voluptate quis illo doloribus nostrum inventore delectus?</p>
+            <section id="tags">
+                <p>Tag1</p>
+                <p>Tag2</p>
+                <p>Tag3</p>
+                <p>Tag4</p>
+            </section>
+            <h2>Comments</h2>
+            <br><br>
+            <h3>Add your thoughts!</h3>
+            <input type="text" id="txt-new-comment" placeholder="Comment">
         </section>
-        <section id="description">
-            <h1>Description</h1>
-            <textarea placeholder="Write a description of your photo. Include tags using a #."></textarea>
-        </section>
-        <button id="post-button"><p>Post</p></button>
     </main>
     <footer id="main-footer">
         <a href="../wireframes/index.html"><p>To Wireframes</p></a>
