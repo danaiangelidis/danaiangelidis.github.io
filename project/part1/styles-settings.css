@@ -131,7 +131,7 @@ input::placeholder {
     text-align: center;
 }
 
-#main-footer a {
+a {
     text-decoration: underline transparent;
     color: black;
 }
@@ -165,6 +165,6 @@ input::placeholder {
 
     .flex-container {
         display: flex;
-        justify-content: right;
+        justify-content: space-evenly;
     }
 }
