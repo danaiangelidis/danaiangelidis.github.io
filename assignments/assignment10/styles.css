@@ -1,0 +1,74 @@
+/* Typography */
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Structure */
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#main-header h1 {
+    color: rgb(54, 92, 125);
+    font-size: 300%;
+}
+
+.toy {
+    width: 50%;
+}
+  
+.image {
+    opacity: 1;
+    width: 150%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border: 5px solid rgb(95, 158, 214);
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+}
+ 
+.toy:hover .image {
+    opacity: 0.3;
+}
+  
+.toy:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    font-size: 16px;
+    z-index: 1;
+    position: relative;
+    top: -280px;
+    left: 70px;
+    width: 100%;
+}
+
+.text li {
+    list-style-type: none;
+    text-align: left;
+}
+
+@media only screen and (min-width: 780px) {
+    #toy-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .image {
+        width: 50%;
+    }
+
+    .text {
+        top: -230px;
+        left: 180px;
+        width: 40%;
+    }
+}

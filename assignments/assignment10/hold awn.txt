@@ -1,0 +1,22 @@
+        const section = document.createElement("section");
+        section.classList.add("toy");
+        
+        section.append(this.picture(this.pic));
+
+        const middle = document.createElement("section");
+        middle.classList.add("middle");
+        section.append(middle);
+
+        const text = document.createElement("section");
+        text.classList.add("text");
+        middle.append(text);
+
+        const h3 = document.createElement("h3");
+        h3.innerHTML = this.name;
+        text.append(h3);
+
+        const ul = document.createElement("ul");
+        text.append(ul);
+        ul.append(this.listItem(this.price));
+        ul.append(this.listItem(this.age));
+        ul.append(this.listItem("age: " + this.rating));
