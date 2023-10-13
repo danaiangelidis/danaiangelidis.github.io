@@ -151,6 +151,8 @@ body {
 
     .posts {
         width: 24%;
+        margin-left: 5%;
+        margin-right: 2%;
     }
 
     #main-footer {
