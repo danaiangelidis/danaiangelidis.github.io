@@ -40,7 +40,7 @@ input::placeholder {
 
 .button {
     display: block;
-    background-color: #4F4F4F;
+    background-color: #494c7c;
     color: white;
     border: none;
     font-size: larger;
@@ -53,7 +53,14 @@ input::placeholder {
 }
 
 #slideshow {
-    background-color: #cacaca;
+    background-image: url("../images/log-in-small.png");
+    /* Snippet starts here */
+    /* Source: https://css-tricks.com/perfect-full-page-background-image/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Snippet ends here */
     padding: 155px 49%;
     position: absolute;
     top: 50px;
@@ -91,5 +98,9 @@ a {
 @media only screen and (min-width: 780px) {
     #info {
         width: 20%;
+    }
+
+    #slideshow {
+        background-image: url("../images/log-in.png");
     }
 }
