@@ -28,7 +28,7 @@ class Toy {
         const ul = document.createElement("ul");
         text.append(ul);
         ul.append(this.listItem("Price: " + this.price));
-        ul.append(this.listItem("Age Range" + this.age));
+        ul.append(this.listItem("Age Range: " + this.age));
         ul.append(this.listItem("Rating: " + this.rating));
         
         return section;
