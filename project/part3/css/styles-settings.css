@@ -23,7 +23,7 @@ body {
 }
 
 #search {
-    padding-top: 5px;
+    padding-top: 17px;
 }
 
 #topnav input {
@@ -39,7 +39,7 @@ body {
 #logo {
     height: 30px;
     position: fixed;
-    top: 13px;
+    top: 25px;
     margin-left: 40%;
 }
 
@@ -48,7 +48,8 @@ body {
     padding-top: 10px;
 }
 
-#nav-in-nav .icons {
+#nav-in-nav .icons,
+#burger {
     padding: 10px 20px;
     padding-top: 20px;
 }
@@ -58,8 +59,8 @@ body {
 }
 
 #burger {
-    width: 33px;
-    height: 43px;
+    width: 27px;
+    height: 33px;
 }
 
 /* Main Content */
@@ -112,17 +113,28 @@ input::placeholder {
 
 #buttons {
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #buttons button {
     display: block;
-    margin: 15px auto;
+    margin: 15px 20px;
     background-color: #4F4F4F;
     color: white;
     border: none;
     font-size: larger;
     font-weight: bold;
     padding: 10px 20px;
+}
+
+#log-out-button {
+    width: 150px;
+}
+
+#deac-acc-button {
+    width: 200px;
 }
 
 /* Main Footer */
@@ -143,6 +155,10 @@ a {
 /* Media Query */
 
 @media only screen and (min-width: 780px) {
+    #search {
+        padding-top: 5px;
+    }
+
     #burger {
         display: none;
     }
@@ -157,6 +173,9 @@ a {
 
     #logo {
         margin-left: 45%;
+        height: 30px;
+        position: fixed;
+        top: 13px;
     }
 
     #topnav input {
@@ -166,5 +185,9 @@ a {
     .flex-container {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    #buttons {
+        flex-wrap: nowrap;
     }
 }

@@ -39,7 +39,7 @@ body {
 #logo {
     height: 30px;
     position: fixed;
-    top: 13px;
+    top: 25px;
     margin-left: 40%;
 }
 
@@ -48,7 +48,8 @@ body {
     padding-top: 10px;
 }
 
-#nav-in-nav .icons {
+#nav-in-nav .icons,
+#burger {
     padding: 10px 20px;
     padding-top: 20px;
 }
@@ -58,8 +59,8 @@ body {
 }
 
 #burger {
-    width: 33px;
-    height: 43px;
+    width: 27px;
+    height: 33px;
 }
 
 /* Main Content */
@@ -68,6 +69,10 @@ body {
     padding-top: 80px;
     width: 60%;
     margin: auto;
+}
+
+#main-content img {
+    width: 50%;
 }
 
 .content {
@@ -124,6 +129,10 @@ input::placeholder {
 /* Media Query */
 
 @media only screen and (min-width: 780px) {
+    #search {
+        padding-top: 5px;
+    }
+
     #burger {
         display: none;
     }
@@ -138,6 +147,9 @@ input::placeholder {
 
     #logo {
         margin-left: 45%;
+        height: 30px;
+        position: fixed;
+        top: 13px;
     }
 
     #topnav input {

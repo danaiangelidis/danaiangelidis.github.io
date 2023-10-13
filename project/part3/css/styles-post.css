@@ -23,7 +23,7 @@ body {
 }
 
 #search {
-    padding-top: 5px;
+    padding-top: 17px;
 }
 
 #topnav input {
@@ -39,7 +39,7 @@ body {
 #logo {
     height: 30px;
     position: fixed;
-    top: 13px;
+    top: 25px;
     margin-left: 40%;
 }
 
@@ -48,7 +48,8 @@ body {
     padding-top: 10px;
 }
 
-#nav-in-nav .icons {
+#nav-in-nav .icons,
+#burger {
     padding: 10px 20px;
     padding-top: 20px;
 }
@@ -58,16 +59,16 @@ body {
 }
 
 #burger {
-    width: 33px;
-    height: 43px;
+    width: 27px;
+    height: 33px;
 }
 
 /* Main Content */
 
 #main-content {
     padding-top: 70px;
-    margin: auto;
     width: 35%;
+    margin: auto;
 }
 
 #main-content h1 {
@@ -84,12 +85,12 @@ body {
 #photo img {
     display: block;
     margin: auto;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 #description textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
+    width: 140%;
     padding: 10px;
     background-color: #EFEFEF;
     border: 1px solid #BBBBBB;
@@ -129,6 +130,10 @@ body {
 /* Media Query */
 
 @media only screen and (min-width: 780px) {
+    #search {
+        padding-top: 5px;
+    }
+
     #burger {
         display: none;
     }
@@ -143,6 +148,9 @@ body {
 
     #logo {
         margin-left: 45%;
+        height: 30px;
+        position: fixed;
+        top: 13px;
     }
 
     #topnav input {
@@ -154,9 +162,8 @@ body {
         flex-wrap: wrap;
     }
 
-    .posts {
-        width: 24%;
-        margin-left: 5%;
-        margin-right: 2%;
+    #description textarea {
+        width: 400px;
+        margin: auto;
     }
 }
