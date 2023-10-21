@@ -70,6 +70,17 @@ body {
     text-align: center;
 }
 
+#image-preview {
+    display: block;
+    margin: auto;
+    width: 110%;
+}
+
+#results p {
+    font-size: larger;
+    margin-left: 20px;
+}
+
 #photo h1,
 #description h1 {
     color: #6C6C6C;
@@ -77,13 +88,7 @@ body {
     font-weight: 500;
 }
 
-#photo img {
-    display: block;
-    margin: auto;
-    padding: 20px 0px;
-}
-
-#description textarea {
+#description input[type="text"] {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     padding: 10px;
@@ -92,7 +97,7 @@ body {
     border-radius: 7px;
 }
 
-#description textarea::placeholder {
+#description input[type="text"]::placeholder {
     color: #BEBEBE;
 }
 
@@ -159,7 +164,11 @@ body {
         width: 35%;
     }
 
-    #description textarea {
+    #image-preview {
+        width: 90%;
+    }
+
+    #description input[type="text"] {
         width: 400px;
         margin: auto;
     }

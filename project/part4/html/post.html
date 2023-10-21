@@ -4,7 +4,7 @@
     <title>Create Post</title>
     <link rel="icon" href="../icons/tab.png">
     <link rel="stylesheet" href="../css/styles-post.css">
-    <script src="script.js"></script>
+    <script src="../javascript/form.js"></script>
 </head>
 <body>
     <header id="main-header">
@@ -26,16 +26,22 @@
     </header>
     <main id="main-content">
         <h1>Create a Post</h1>
-        <section id="photo">
-            <h1>Photo</h1>
-            <input type="file" id="file-input">
-            <img src="https://place-hold.it/250x350/">
+        <form id="make-post">
+            <section id="photo">
+                <h1>Photo</h1>
+                <input type="file" id="file-input" name="file-input" accept="image/*" onchange="updatePreview(this, 'image-preview')" required>
+            </section>
+            <section id="description">
+                <h1>Description</h1>
+                <input placeholder="Write a description of your photo. Include tags using a #." type="text" id="desc" name="desc" required></input>
+            </section>
+            <button id="post-button" type="submit"><p>Submit</p></button>
+        </form>
+        <section id="results" class="hide">
+            <h1>Success! Your photo has been posted.</h1>
+            <img id="image-preview" 
+                src="https://via.placeholder.com/10">
         </section>
-        <section id="description">
-            <h1>Description</h1>
-            <textarea placeholder="Write a description of your photo. Include tags using a #."></textarea>
-        </section>
-        <button id="post-button"><p>Post</p></button>
     </main>
     <footer id="main-footer">
         <section id="nav-in-nav">
