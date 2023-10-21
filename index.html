@@ -4,6 +4,7 @@
     <title>Danai Angelidis 242</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="contactme.js"></script>
 </head>
 <body>
     <header id="main-header">
@@ -110,7 +111,7 @@
                 </section>
                 <section class="assignment">
                     <a href="project/part4/html/index.html">
-                        <h3>Project Part 4 - Client Side Form Validation and JavaScript</h3>
+                        <h3>Project Part 4 - Client Side Form Validation</h3>
                         <img src="images/part4.PNG">
                         <p>In this version of my project, I have implemented HTML5 form validation.</p>
                     </a>
@@ -118,8 +119,40 @@
             </div>
         </section>
     </main>
+    <hr>
     <footer id="main-footer">
-        <p>Contact me: danaia@email.sc.edu</p>
+        <h2>Contact Me:</h2>
+        <section class="flex-container">
+            <form id="contact" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="85a96246-2582-4ab1-be08-c73bf018820d">
+                <p>
+                    <label for="name">Full Name:</label>
+                    <input id="name" type="text" placeholder="Full Name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="name@example.com" required>
+                </p>
+                <p>
+                    <label for="phone">Phone Number:</label>
+                    <input id="phone" type="tel" name="phone" placeholder="(123)456-7890" required>
+                </p>
+                <p>
+                    <label for="reason">Reason For Contact:</label>
+                    <textarea id="reason" type="text" name="reason" placeholder="Message" required></textarea>
+                </p>
+
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <input type="hidden" name="subject" value="Contact Request">
+                <input type="hidden" name="from_name" value="Landing Page Contact Form">
+                <p>
+                    <button type="submit">Submit</button>
+                </p>
+
+                <p id="result"></p>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.1251989636153!2d-81.029472!3d33.989317799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8bad8f7f3702b%3A0xafc6fc171b487f87!2sSwearingen%20Engineering%20Center%2C%20Columbia%2C%20SC%2029201!5e0!3m2!1sen!2sus!4v1697900782014!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
     </footer>
 </body>
 </html>

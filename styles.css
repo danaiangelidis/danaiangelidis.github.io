@@ -64,6 +64,11 @@ body {
     padding: 5px;
 }
 
+hr {
+    border: 2px solid rgba(255, 255, 255, 0.379);
+    border-radius: 5px;
+}
+
 /*Typography*/
 
 body {
@@ -105,6 +110,63 @@ body {
     border-bottom: solid 5px #63394f79;
 }
 
+/* Form */
+
+label,
+input,
+textarea {
+    display: inline-block;
+}
+
+label {
+    width: 200px;
+    text-align: left;
+    padding: 5px;
+}
+
+input,
+textarea {
+    background-color: rgba(120, 25, 66, 0.429);
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    color: white;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 200px;
+    min-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.482);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgba(120, 25, 66, 0.429);
+    color: white;
+    border: 2px solid white;
+}
+
+button:hover {
+    background-color: rgba(171, 52, 84, 0.779);
+}
+
+iframe {
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
 /* Media Query */
 
 @media only screen and (min-width: 800px) {
@@ -127,5 +189,15 @@ body {
 
     .assignment {
         width: 30%;
+    }
+
+    label {
+        text-align: right;
+        width: 130px;
+    }
+
+    form,
+    iframe {
+        margin: 0px auto;
     }
 }
