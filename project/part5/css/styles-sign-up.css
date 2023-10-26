@@ -1,0 +1,106 @@
+/* Structure */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+/* Main-Header */
+
+#main-header img {
+    width: 100px;
+    margin-left: 40px;
+}
+
+/* Main-Content */
+
+#info {
+    padding: 10px 40px;
+    width: 50%;
+}
+
+label,
+#log-in p {
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    padding: 10px 5px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
+}
+
+input::placeholder {
+    color: #BBBBBB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+}
+
+.button {
+    display: block;
+    background-color: #354f79;
+    color: white;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+#info button {
+    margin: auto;
+}
+
+#slideshow {
+    background-image: url("../images/sign-up-small.png");
+    /* Snippet starts here */
+    /* Source: https://css-tricks.com/perfect-full-page-background-image/ */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* Snippet ends here */
+    padding: 155px 49%;
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+
+#log-in p,
+#log-in button {
+    display: inline-block;
+}
+
+#log-in p {
+    padding-right: 10px;
+}
+
+#log-in {
+    padding: 20px 5px;
+}
+
+/* Main Footer */
+
+#main-footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline transparent;
+    color: black;
+}
+
+#main-footer a:hover {
+    text-decoration: underline black;
+}
+
+@media only screen and (min-width: 780px) {
+    #info {
+        width: 20%;
+    }
+
+    #slideshow {
+        background-image: url("../images/sign-up.png");
+    }
+}

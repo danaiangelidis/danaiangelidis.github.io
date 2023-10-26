@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Post</title>
+    <link rel="icon" href="../icons/tab.png">
+    <link rel="stylesheet" href="../css/styles-post.css">
+    <script src="../javascript/form.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <div id="topnav">
+            <section id="search">
+                <a href="search.html">
+                    <img src="../icons/search.png" id="search-icon" class="icons">
+                    <input type="text" placeholder="Search">
+                </a>
+            </section>
+            <img src="../icons/logo.png" id="logo">
+            <section id="nav-in-nav" class="hide">
+                <a href="index.html"><img src="../icons/home.png" class="icons"></a>
+                <a href="post.html"><img src="../icons/post.png" class="icons"></a>
+                <a href="blog.html"><img src="../icons/blog.png" class="icons"></a>
+                <a href="settings.html"><img src="../icons/settings.png" class="icons"></a>
+            </section>
+        </div>
+    </header>
+    <main id="main-content">
+        <h1>Create a Post</h1>
+        <form id="make-post">
+            <section id="photo">
+                <h1>Photo</h1>
+                <input type="file" id="file-input" name="file-input" accept="image/*" onchange="updatePreview(this, 'image-preview')" required>
+            </section>
+            <section id="description">
+                <h1>Description</h1>
+                <input placeholder="Write a description of your photo. Include tags using a #." type="text" id="desc" name="desc" required></input>
+            </section>
+            <button id="post-button" type="submit"><p>Submit</p></button>
+        </form>
+        <section id="results" class="hide">
+            <h1>Success! Your photo has been posted.</h1>
+            <img id="image-preview" 
+                src="https://via.placeholder.com/10">
+        </section>
+    </main>
+    <footer id="main-footer">
+        <section id="nav-in-nav">
+            <a href="index.html"><img src="../icons/home.png" class="icons"></a>
+            <a href="post.html"><img src="../icons/post.png" class="icons"></a>
+            <a href="blog.html"><img src="../icons/blog.png" class="icons"></a>
+            <a href="settings.html"><img src="../icons/settings.png" class="icons"></a>
+        </section>
+    </footer>
+</body>
+</html>
