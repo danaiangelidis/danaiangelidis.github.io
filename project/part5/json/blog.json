@@ -1,0 +1,44 @@
+[
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana1.PNG",
+        "desc" : "One of my fall faves. Perfect for a study session with some friends and a chai tea latte.",
+        "tags" : ["#fall", "#academia", "#coquette"],
+        "view" : "https://danaiangelidis.github.io/project/part5/html/view-post.html"
+    },
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana2.PNG",
+        "desc" : "So honored to have the chance to wear a chut thai during my last week studying abroad in Thailand!",
+        "tags" : ["#thailand", "#chutthai", "#studyabroad"],
+        "view" : "#"
+    },
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana3.PNG",
+        "desc" : "Springs in Charleston >>>",
+        "tags" : ["#spring", "#charleston"],
+        "view" : "#"
+    },
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana4.PNG",
+        "desc" : "Yes, I know how to skate :P",
+        "tags" : ["#casual", "#athleisure", "spring"],
+        "view" : "#"
+    },
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana5.PNG",
+        "desc" : "Out for a coffee in my favorite skirt!",
+        "tags" : ["#casual", "#cute", "indie"],
+        "view" : "#"
+    },
+    {
+        "username" : "jbanana",
+        "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana6.PNG",
+        "desc" : "Always up for a picnic &lt;3",
+        "tags" : ["#spring", "#coquette"],
+        "view" : "#"
+    }
+]
