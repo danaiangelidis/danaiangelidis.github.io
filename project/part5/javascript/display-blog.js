@@ -1,5 +1,5 @@
 const getPosts = async () => {
-    const url = "https://danaiangelidis.github.io/project/part5/json/blog.json";
+    const url = "https://danaiangelidis.github.io/project/part5/json/home.json";
   
     try {
         const response = await fetch(url);
@@ -14,7 +14,9 @@ const showPosts = async () => {
     let postsSection = document.getElementById("all-posts");
   
     posts.forEach((post) => {
-        postsSection.append(getPostInfo(post));
+        if(post.username == "jbanana") {
+            postsSection.append(getPostInfo(post));
+        }
     });
 };
   
