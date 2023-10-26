@@ -3,48 +3,56 @@
         "username" : "jbanana",
         "image" : "https://danaiangelidis.github.io/project/part5/images/jbanana1.PNG",
         "desc" : "One of my fall faves. Perfect for a study session with some friends and a chai tea latte.",
-        "tags" : ["#fall", "#academia", "#coquette"]
+        "tags" : ["#fall", "#academia", "#coquette"],
+        "view" : "https://danaiangelidis.github.io/project/part5/html/view-post.html"
     },
     {
         "username" : "brebre",
         "image" : "https://danaiangelidis.github.io/project/part5/images/brebre.PNG",
         "desc" : "Sun's out, guns out",
-        "tags" : ["#streetwear", "#summer"]
+        "tags" : ["#streetwear", "#summer"],
+        "view" : "#"
     },
     {
         "username" : "irida",
         "image" : "https://danaiangelidis.github.io/project/part5/images/irida.PNG",
         "desc" : "Officially sweater weather!",
-        "tags" : ["#streetwear", "#winter"]
+        "tags" : ["#streetwear", "#winter"],
+        "view" : "#"
     },
     {
         "username" : "lwong",
         "image" : "https://danaiangelidis.github.io/project/part5/images/lwo.PNG",
         "desc" : "Yee-Haw",
-        "tags" : ["#summer", "#cowgirl", "boots"]
+        "tags" : ["#summer", "#cowgirl", "boots"],
+        "view" : "#"
     },
     {
         "username" : "mariag33",
         "image" : "https://danaiangelidis.github.io/project/part5/images/mariag33.PNG",
         "desc" : "Quick OOTD in Charlotte",
-        "tags" : ["#sweater", "#winter", "cozy"]
+        "tags" : ["#sweater", "#winter", "cozy"],
+        "view" : "#"
     },
     {
         "username" : "mickyle",
         "image" : "https://danaiangelidis.github.io/project/part5/images/mickyle.PNG",
         "desc" : "Happy new year!",
-        "tags" : ["#nye", "#winter", "streetwear"]
+        "tags" : ["#nye", "#winter", "streetwear"],
+        "view" : "#"
     },
     {
         "username" : "anna-p",
         "image" : "https://danaiangelidis.github.io/project/part5/images/anna-p.PNG",
         "desc" : "Academia vibes",
-        "tags" : ["#academia", "#fall", "cute"]
+        "tags" : ["#academia", "#fall", "cute"],
+        "view" : "#"
     },
     {
         "username" : "danaiagg",
         "image" : "https://danaiangelidis.github.io/project/part5/images/danaiagg.PNG",
         "desc" : "Favorite car ride buddy",
-        "tags" : ["#cozy", "#winter", "sweater"]
+        "tags" : ["#cozy", "#winter", "sweater"],
+        "view" : "#"
     }
 ]

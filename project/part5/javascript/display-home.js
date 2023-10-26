@@ -22,17 +22,25 @@ const showPosts = async () => {
     let sect = document.createElement("section");
     sect.classList.add("posts");
 
-    let image = document.createElement("img");
-    image.src = `${post.image}`;
-    sect.append(image);
-  
+    let a = document.createElement("a");
+    a.href = `${post.view}`;
+    sect.append(a)
+
     let h3 = document.createElement("h3");
     h3.innerText = post.username;
-    sect.append(h3);
+    a.append(h3);
+
+    let image = document.createElement("img");
+    image.src = `${post.image}`;
+    a.append(image);
   
     let p = document.createElement("p");
     p.innerHTML = post.desc;
-    sect.append(p);
+    a.append(p);
+    
+    post.tags.forEach((tag) => {
+        p.innerHTML += " " + tag;
+    });
   
     return sect;
 };
