@@ -61,7 +61,7 @@ body {
 
 #main-content {
     padding-top: 80px;
-    width: 60%;
+    width: 90%;
     margin: auto;
     padding-bottom: 70px;
 }
@@ -151,6 +151,10 @@ input::placeholder {
 
     .flex-container {
         display: flex;
+    }
+
+    #main-content {
+        width: 60%;
     }
 
     #main-content img {

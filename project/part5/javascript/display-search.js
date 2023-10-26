@@ -27,7 +27,7 @@ const showPosts = async () => {
     sect.classList.add("posts");
 
     let a = document.createElement("a");
-    a.href = `${post.view}`;
+    a.href = "../html/view-post.html";
     sect.append(a)
 
     let h3 = document.createElement("h3");
