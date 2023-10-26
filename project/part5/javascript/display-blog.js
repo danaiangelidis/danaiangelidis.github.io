@@ -19,8 +19,8 @@ const showPosts = async () => {
         }
     });
 };
-  
-  const getPostInfo = (post) => {
+
+const getPostInfo = (post) => {
     let sect = document.createElement("section");
     sect.classList.add("posts");
 
