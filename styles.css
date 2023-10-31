@@ -58,6 +58,18 @@ body {
     width: 90%;
 }
 
+#ass12:hover {
+    background-color: rgba(120, 25, 66, 0.429);
+}
+
+#ass12 a {
+    text-decoration: underline transparent 1px;
+}
+
+#ass12 a:hover {
+    text-decoration: underline white 1px;
+}
+
 #main-footer {
     margin: 10px 0px;
     text-align: center;
